@@ -1,0 +1,46 @@
+.modal_backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.modal_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 300px;
+  max-width: 600px;
+  width: 100%;
+  padding: 12px;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  z-index: 10;
+}
+
+.modal_close_btn {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  height: 20px;
+  width: 20px;
+  font-size: 30px;
+  color: #4a4a4a;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+  transition: all 0.25s linear;
+  transform: rotate(45deg);
+}
+
+.modal_close_btn:hover,
+.modal_close_btn:focus {
+  color: #000;
+}

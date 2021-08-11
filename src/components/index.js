@@ -85,6 +85,11 @@ export { default as Menu } from './Menu/Menu';
 export { default as Modal } from './Modal/Modal';
 export { default as ModalInMobile } from './ModalInMobile/ModalInMobile';
 
+// Discount
+export { default as DiscountCoupon } from './DiscountCoupon/DiscountCoupon';
+export { default as ModalDiscount } from './ModalDiscount/ModalDiscount';
+export { default as DiscountForm } from './DiscountForm/DiscountForm';
+
 // Fields (for Final Form)
 export { default as FieldBirthdayInput } from './FieldBirthdayInput/FieldBirthdayInput';
 export { default as FieldCheckbox } from './FieldCheckbox/FieldCheckbox';

@@ -1,0 +1,105 @@
+.discount_title {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.form_field {
+  position: relative;
+  text-align: center;
+  margin: 40px 50px;
+}
+
+.form_lable {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: rgba(24, 28, 39, 0.6);
+  pointer-events: none;
+  cursor: pointer;
+}
+
+.form_input {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  color: rgba(24, 28, 39, 0.6);
+  border: none;
+  border-bottom: 2px solid rgba(24, 28, 39, 0.2);
+}
+
+.form_input:hover {
+  border-bottom: 2px solid black;
+}
+
+.form_input:focus {
+  outline: none;
+  border-bottom: 2px solid #ff6b08;
+  transition: all 0.25s linear;
+}
+
+.form_input:focus + .form_lable,
+.form_input:not(:placeholder-shown) + .form_lable {
+  font-size: 14px;
+  color: #ff6b08;
+  transform: translateY(-23px);
+  transition: all 0.25s linear;
+}
+
+.btn_submit {
+  flex-shrink: 0;
+  width: 100%;
+  align-items: center;
+  margin-top: 40px;
+  padding: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  color: var(--matterColorLight);
+  background: var(--successColor);
+  border-radius: 3px;
+  transition: all 0.25s linear;
+}
+
+.btn_submit:hover,
+.btn_submit:focus {
+  background: var(--successColorDark);
+}
+
+.btn_disable {
+  flex-shrink: 0;
+  width: 100%;
+  align-items: center;
+  margin-top: 40px;
+  padding: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  border: none;
+  outline: none;
+
+  color: var(--matterColorLight);
+  background: #cfd8dc;
+  border-radius: 3px;
+}
+
+.msg_coupon {
+  margin-top: 30px;
+  color: #ff6b08;
+}

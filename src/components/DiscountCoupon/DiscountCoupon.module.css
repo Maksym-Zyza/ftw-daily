@@ -1,0 +1,14 @@
+.enterDiscountCoupon {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  text-align: center;
+  text-decoration: underline;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.enterDiscountCoupon:hover {
+  font-weight: 500;
+}
