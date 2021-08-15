@@ -163,6 +163,7 @@
   "DateInput.defaultPlaceholder": "Date input",
   "DateInput.screenReaderInputMessage": "Date input",
   "DiscountCoupon.enterDiscountCoupon": "Enter a discount coupon",
+  "DiscountCoupon.deleteDiscountCoupon": "Delete a discount coupon",
   "EditListingAvailabilityForm.fetchMonthDataFailed": "Oops, couldn't load data for {month}, please try again.",
   "EditListingAvailabilityForm.availableDay": "Available",
   "EditListingAvailabilityForm.blockedDay": "Not available",

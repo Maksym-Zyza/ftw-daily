@@ -50,7 +50,7 @@ export class BookingDatesFormComponent extends Component {
       e.preventDefault();
       this.setState({ focusedInput: END_DATE });
     } else {
-      this.props.onSubmit(e);
+      // this.props.onSubmit(e);
     }
   }
 
@@ -118,6 +118,7 @@ export class BookingDatesFormComponent extends Component {
             fetchLineItemsInProgress,
             fetchLineItemsError,
           } = fieldRenderProps;
+
           const { startDate, endDate } = values && values.bookingDates ? values.bookingDates : {};
 
           const bookingStartLabel = intl.formatMessage({
@@ -246,7 +247,7 @@ export class BookingDatesFormComponent extends Component {
                   <FormattedMessage id="BookingDatesForm.requestToBook" />
                 </PrimaryButton>
               </div>
-              <DiscountCoupon />
+              <DiscountCoupon price={lineItems} />
             </Form>
           );
         }}
